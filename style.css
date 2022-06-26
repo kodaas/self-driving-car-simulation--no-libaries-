@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background: burlywood;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    position: relative;
+}
+
+#verticalButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 7px 5px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: blue;
+}
+
+#paused {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(130, 110, 110, 0.33);
+    text-align: center;
+    padding-top: 200px;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 40px;
+    text-shadow: 4px 3px 0px #000, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+#networkCanvas {
+    background: black;
+}
+
+#carCanvas {
+    background: rgb(238, 236, 236);
+}
